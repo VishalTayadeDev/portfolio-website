@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    /* height: 500%; */
+}
+
+.about-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-block: 80px;
+}
+
+.about-heading h2{
+    font-size: 3rem;
+    padding: 20px;
+
+}
+
+/* about-me-container */
+
+.about-me-container{
+    height: 100vh;
+    margin-top: 5rem;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items:center ;
+    
+    
+
+}
+.about-hero-img{
+   margin-left: 30px;
+   background-color: var(--priymery--color-);
+   width: 30rem;
+   height: 42rem;
+   border-radius: 10px;
+   
+
+}
+
+.about-hero-img img{
+    width: 30rem;
+    height: 40rem;
+    border-radius: 10px;
+    background-color: #26a69a;
+    transform: translate(-4%, 2%);
+}
+
+.about-text{
+    margin-block: 40px;
+}
+
+.about-text h3{
+    font-size: 2rem;
+    color: var( --ast-global-color-2);
+
+}
+
+.about-text hr{
+    margin-block: 20px;
+}
+
+.about-text p{
+    padding-block: 20px;
+}
+
+.about-text h4{
+    font-size: 1rem;
+    color: var(--ast-global-color-2);
+
+}
+
+/* create-producats */
+
+
+.create-producats{
+    margin-inline: 30px;
+    margin-block:30px;
+}
+
+.create-producats h3{
+    font-size:2rem ;
+    font-weight: 5500;
+    color:var(--ast-global-color-2) ;
+}
+
+.create-producats hr{
+    margin-block: 20px;
+}
+
+.create-producats p{
+    padding-block: 20px;
+}
+
+/* developer-secrtion */
+
+.developer-secrtion{
+    height: 100%;
+    margin-inline: 30px;
+    margin-block: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    
+}
+
+.developer-secrtion h3{
+    font-size: 2rem;
+    color: var(--ast-global-color-2);
+}
+
+.left-side-container hr{
+    margin-block: 20px;
+}
+
+.left-side-container p{
+  text-align: start;
+    padding-block: 20px;
+ 
+    
+}
+
+.right-side-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+          
+.slider-input{
+    display: block;
+    width: 25rem;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: var(--ast-global-color-4);
+}
+
+.slider-input::before{
+    background-color: red;
+}
+
+.slider-input::after{
+    background-color: red;
+}
+
+/* services-card */
+
+.services-card{
+    margin-bottom: 40px;
+}
+.Clients{
+    
+        width: 50px;
+   
+}
+
